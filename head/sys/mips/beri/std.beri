@@ -1,0 +1,4 @@
+# $FreeBSD: soc2013/dpl/head/sys/mips/beri/std.beri 240830 2012-08-25 08:31:21Z rwatson $
+files	"../beri/files.beri"
+
+cpu		CPU_MIPS4KC

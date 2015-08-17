@@ -1,0 +1,9 @@
+# $FreeBSD: soc2013/dpl/head/lib/liby/Makefile 201424 2010-01-02 09:58:07Z ed $
+
+LIB=	y
+SRCS=	main.c yyerror.c
+NO_PIC=
+
+WARNS?=	1
+
+.include <bsd.lib.mk>

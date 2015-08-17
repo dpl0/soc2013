@@ -1,0 +1,7 @@
+# $FreeBSD: soc2013/dpl/head/tools/regression/bin/sh/set-e/if2.0 149824 2005-09-04 11:59:59Z stefanf $
+set -e
+# PR 28852
+if true; then
+	false && true
+fi
+exit 0

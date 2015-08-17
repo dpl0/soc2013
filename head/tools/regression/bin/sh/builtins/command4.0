@@ -1,0 +1,2 @@
+# $FreeBSD: soc2013/dpl/head/tools/regression/bin/sh/builtins/command4.0 212016 2010-08-29 20:53:24Z jilles $
+! command -v nonexisting

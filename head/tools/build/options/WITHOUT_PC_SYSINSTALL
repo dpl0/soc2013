@@ -1,0 +1,4 @@
+.\" $FreeBSD: soc2013/dpl/head/tools/build/options/WITHOUT_PC_SYSINSTALL 246807 2013-01-18 15:57:09Z eadler $
+Set to not build
+.Xr pc-sysinstall 8
+and related programs.

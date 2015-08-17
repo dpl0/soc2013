@@ -1,0 +1,4 @@
+# $FreeBSD: soc2013/dpl/head/etc/hosts.lpd 50512 1999-08-27 23:37:10Z peter $
+#
+# See lpd(8)
+#machine.domain

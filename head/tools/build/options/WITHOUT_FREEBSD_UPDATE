@@ -1,0 +1,3 @@
+.\" $FreeBSD: soc2013/dpl/head/tools/build/options/WITHOUT_FREEBSD_UPDATE 183285 2008-09-21 22:02:26Z sam $
+Set to not build
+.Xr freebsd-update 8 .

@@ -1,0 +1,5 @@
+# $FreeBSD: soc2013/dpl/head/tools/regression/bin/sh/execution/set-n2.0 222775 2011-06-03 21:17:42Z jilles $
+
+$SH -n <<'EOF'
+echo bad
+EOF

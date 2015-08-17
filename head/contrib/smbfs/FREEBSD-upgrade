@@ -1,0 +1,6 @@
+$FreeBSD: soc2013/dpl/head/contrib/smbfs/FREEBSD-upgrade 87911 2001-12-14 11:11:31Z sheldonh $
+
+The smbfs distribution was written with FreeBSD in mind, so the only
+change required before an import is:
+
+rm -rf kernel

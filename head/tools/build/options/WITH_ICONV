@@ -1,0 +1,2 @@
+.\" $FreeBSD: soc2013/dpl/head/tools/build/options/WITH_ICONV 219063 2011-02-25 00:10:26Z gabor $
+Set to build iconv as part of libc.

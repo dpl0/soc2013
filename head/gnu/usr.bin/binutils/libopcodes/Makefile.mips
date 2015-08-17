@@ -1,0 +1,4 @@
+# $FreeBSD: soc2013/dpl/head/gnu/usr.bin/binutils/libopcodes/Makefile.mips 185967 2008-12-11 08:20:34Z imp $
+
+SRCS+=	mips-dis.c mips-opc.c mips16-opc.c
+CFLAGS+= -DARCH_mips

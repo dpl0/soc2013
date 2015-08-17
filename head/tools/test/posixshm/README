@@ -1,0 +1,4 @@
+$FreeBSD: soc2013/dpl/head/tools/test/posixshm/README 59539 2000-04-22 15:29:21Z wollman $
+
+This is a simple program to test/demonstrate the POSIX Shared Memory
+Objects feature set.  `make shm_test' to build.

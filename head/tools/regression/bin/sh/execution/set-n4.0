@@ -1,0 +1,3 @@
+# $FreeBSD: soc2013/dpl/head/tools/regression/bin/sh/execution/set-n4.0 222790 2011-06-04 11:28:42Z jilles $
+
+$SH -nc 'echo bad'

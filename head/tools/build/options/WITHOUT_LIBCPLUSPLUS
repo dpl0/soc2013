@@ -1,0 +1,2 @@
+.\" $FreeBSD: soc2013/dpl/head/tools/build/options/WITHOUT_LIBCPLUSPLUS 247463 2013-02-02 22:42:46Z dim $
+Set to avoid building libcxxrt and libc++.

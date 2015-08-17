@@ -1,0 +1,12 @@
+/*
+ * $FreeBSD: soc2013/dpl/head/sys/boot/pc98/boot0.5/ldscript 168500 2007-04-07 08:37:04Z kato $
+ */
+
+SECTIONS
+{
+	.text : { *(.text) }
+	.data : { *(.data) }
+	. = 0x1243;
+	.putssjis : { *(.putssjis) }
+	.bss : { *(.bss) }
+}

@@ -1,0 +1,9 @@
+/*
+ * $FreeBSD: soc2013/dpl/head/lib/libc/nls/Symbol.map 169135 2007-04-29 14:05:22Z deischen $
+ */
+
+FBSD_1.0 {
+	catopen;
+	catgets;
+	catclose;
+};

@@ -1,0 +1,7 @@
+# $FreeBSD: soc2013/dpl/head/lib/libsbuf/Version.def 250579 2013-04-11 19:50:10Z trociny $
+
+FBSD_1.2 {
+};
+
+FBSD_1.3 {
+} FBSD_1.2;

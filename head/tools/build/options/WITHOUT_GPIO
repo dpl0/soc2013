@@ -1,0 +1,4 @@
+.\" $FreeBSD: soc2013/dpl/head/tools/build/options/WITHOUT_GPIO 228362 2011-11-28 17:54:34Z dim $
+Set to not build
+.Xr gpioctl 8
+as part of the base system.

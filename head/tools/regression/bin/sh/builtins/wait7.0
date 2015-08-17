@@ -1,0 +1,4 @@
+# $FreeBSD: soc2013/dpl/head/tools/regression/bin/sh/builtins/wait7.0 249550 2013-03-15 20:29:31Z jilles $
+
+: &
+wait -- $!

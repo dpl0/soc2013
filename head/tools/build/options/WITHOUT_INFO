@@ -1,0 +1,4 @@
+.\" $FreeBSD: soc2013/dpl/head/tools/build/options/WITHOUT_INFO 156975 2006-03-21 07:50:50Z ru $
+Set to not make or install
+.Xr info 5
+files.

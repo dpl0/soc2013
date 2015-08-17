@@ -1,0 +1,6 @@
+# $FreeBSD: soc2013/dpl/head/sys/modules/netgraph/vlan/Makefile 126490 2004-03-01 17:22:16Z ru $
+
+KMOD=	ng_vlan
+SRCS=	ng_vlan.c
+
+.include <bsd.kmod.mk>

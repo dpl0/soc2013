@@ -1,0 +1,7 @@
+# $FreeBSD: soc2013/dpl/head/sys/modules/digi/digi_Xr/Makefile 76236 2001-05-02 01:08:09Z brian $
+
+.PATH:	${.CURDIR}/../../../dev/digi
+KMOD=	digi_Xr
+SRCS=	Xr.c Xr.bios.h Xr.fepos.h digi_mod.h
+
+.include <bsd.kmod.mk>

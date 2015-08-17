@@ -1,0 +1,7 @@
+# $FreeBSD: soc2013/dpl/head/tools/regression/bin/sh/expansion/readonly1.0 239397 2012-07-15 10:19:43Z jilles $
+
+w='@ @'
+
+v=0 HOME=/known/value
+readonly v=~:~/:$w
+[ "$v" = "$HOME:$HOME/:$w" ] || echo "Expected $HOME/:$w got $v"

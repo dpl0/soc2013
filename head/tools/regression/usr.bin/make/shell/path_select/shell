@@ -1,0 +1,6 @@
+#!/bin/sh
+# $FreeBSD: soc2013/dpl/head/tools/regression/usr.bin/make/shell/path_select/shell 146865 2005-05-31 14:13:07Z harti $
+echo $@
+if ! test -t 0 ; then
+	cat
+fi

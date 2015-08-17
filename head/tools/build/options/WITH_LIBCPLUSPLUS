@@ -1,0 +1,2 @@
+.\" $FreeBSD: soc2013/dpl/head/tools/build/options/WITH_LIBCPLUSPLUS 228363 2011-11-28 17:56:46Z dim $
+Set to build libcxxrt and libc++.

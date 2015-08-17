@@ -1,0 +1,4 @@
+.\" $FreeBSD: soc2013/dpl/head/tools/build/options/WITHOUT_KVM_SUPPORT 170687 2007-06-13 02:08:04Z sepotvin $
+Set to build some programs without optional
+.Nm libkvm
+support.

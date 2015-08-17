@@ -1,0 +1,6 @@
+# $FreeBSD: soc2013/dpl/head/tools/regression/bin/sh/builtins/case12.0 228288 2011-11-26 22:28:25Z jilles $
+
+false
+case x in
+y)
+esac

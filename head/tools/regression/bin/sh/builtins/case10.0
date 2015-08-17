@@ -1,0 +1,16 @@
+# $FreeBSD: soc2013/dpl/head/tools/regression/bin/sh/builtins/case10.0 223712 2011-06-25 20:37:43Z jilles $
+
+case ! in
+[\!!]) ;;
+*) echo Failed at $LINENO ;;
+esac
+
+case ! in
+['!'!]) ;;
+*) echo Failed at $LINENO ;;
+esac
+
+case ! in
+["!"!]) ;;
+*) echo Failed at $LINENO ;;
+esac

@@ -1,0 +1,12 @@
+$FreeBSD: soc2013/dpl/head/contrib/gperf/FREEBSD-Xlist 228349 2011-11-28 14:23:09Z bapt $
+*/*.dvi
+*/*.html
+*/*.info
+*/*.ps
+*/texinfo.tex
+*/tests
+*/getopt*
+*/*.pdf
+*/*.vms
+*/*.msvc
+*/*.woe32

@@ -1,0 +1,4 @@
+# $FreeBSD: soc2013/dpl/head/usr.sbin/Makefile.arm 233191 2012-03-13 00:45:27Z jmallett $
+
+SUBDIR+=	ofwdump
+SUBDIR+=	kgmon

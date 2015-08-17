@@ -1,0 +1,5 @@
+# $FreeBSD: soc2013/dpl/head/tools/regression/bin/sh/builtins/read6.0 248391 2013-02-23 15:15:41Z jilles $
+
+: | read x
+r=$?
+[ "$r" = 1 ]

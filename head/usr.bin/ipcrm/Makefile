@@ -1,0 +1,12 @@
+# $FreeBSD: soc2013/dpl/head/usr.bin/ipcrm/Makefile 201429 2010-01-02 10:27:05Z ed $
+
+PROG=	ipcrm
+SRCS=	ipcrm.c ipc.c
+DPADD=	${LIBKVM}
+LDADD=	-lkvm
+CFLAGS+=-I${.CURDIR}/../ipcs
+.PATH:  ${.CURDIR}/../ipcs
+
+WARNS?=	0
+
+.include <bsd.prog.mk>

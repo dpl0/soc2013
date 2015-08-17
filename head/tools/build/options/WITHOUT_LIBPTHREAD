@@ -1,0 +1,5 @@
+.\" $FreeBSD: soc2013/dpl/head/tools/build/options/WITHOUT_LIBPTHREAD 188891 2009-02-20 11:09:55Z mtm $
+Set to not build the
+.Nm libpthread
+providing library,
+.Nm libthr .

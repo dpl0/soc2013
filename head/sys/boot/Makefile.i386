@@ -1,0 +1,4 @@
+# $FreeBSD: soc2013/dpl/head/sys/boot/Makefile.i386 211722 2010-08-23 01:48:07Z imp $
+
+SUBDIR+=		efi
+SUBDIR+=		zfs

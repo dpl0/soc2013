@@ -1,0 +1,6 @@
+# $FreeBSD: soc2013/dpl/head/tools/regression/bin/sh/parser/alias9.0 243905 2012-11-07 23:15:36Z jilles $
+
+alias alias0=:
+alias alias0=exit
+eval 'alias0 0'
+exit 1

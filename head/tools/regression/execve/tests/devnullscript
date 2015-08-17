@@ -1,0 +1,4 @@
+#! /dev/null
+# $FreeBSD: soc2013/dpl/head/tools/regression/execve/tests/devnullscript 159140 2006-05-31 11:13:10Z maxim $
+
+echo succeeded

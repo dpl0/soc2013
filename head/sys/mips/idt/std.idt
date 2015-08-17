@@ -1,0 +1,6 @@
+# $FreeBSD: soc2013/dpl/head/sys/mips/idt/std.idt 233179 2012-03-12 21:25:32Z jmallett $
+# Standard include file for IDT
+
+files	"../idt/files.idt"
+
+machine		mips mipsel

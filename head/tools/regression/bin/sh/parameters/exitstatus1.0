@@ -1,0 +1,9 @@
+# $FreeBSD: soc2013/dpl/head/tools/regression/bin/sh/parameters/exitstatus1.0 185275 2008-11-23 20:27:03Z stefanf $
+f() {
+	[ $? = $1 ] || exit 1
+}
+
+true
+f 0
+false
+f 1

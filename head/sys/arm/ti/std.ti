@@ -1,0 +1,6 @@
+# $FreeBSD: soc2013/dpl/head/sys/arm/ti/std.ti 240485 2012-08-18 05:48:19Z andrew $
+
+cpu 		CPU_CORTEXA
+machine 	arm	armv6
+
+files		"../ti/files.ti"

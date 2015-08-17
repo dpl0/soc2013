@@ -1,0 +1,6 @@
+# ASCII
+#
+# $FreeBSD: soc2013/dpl/head/share/colldef/la_LN.US-ASCII.src 50517 1999-08-28 01:08:13Z peter $
+#
+order \
+	\x00;...;\xff

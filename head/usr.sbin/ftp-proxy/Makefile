@@ -1,0 +1,5 @@
+# $FreeBSD: soc2013/dpl/head/usr.sbin/ftp-proxy/Makefile 171216 2007-07-03 12:46:08Z mlaier $
+
+SUBDIR= libevent ftp-proxy
+
+.include <bsd.subdir.mk>

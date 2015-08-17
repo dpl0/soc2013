@@ -1,0 +1,2 @@
+.\" $FreeBSD: soc2013/dpl/head/tools/build/options/WITHOUT_PROFILE 228477 2011-12-02 09:09:54Z fjoe $
+Set to avoid compiling profiled libraries.

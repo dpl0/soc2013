@@ -1,0 +1,4 @@
+# $FreeBSD: soc2013/dpl/head/sbin/Makefile.sparc64 212570 2010-09-13 02:25:21Z imp $
+
+SUBDIR += bsdlabel
+SUBDIR += sunlabel

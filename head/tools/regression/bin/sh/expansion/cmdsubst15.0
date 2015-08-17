@@ -1,0 +1,5 @@
+# $FreeBSD: soc2013/dpl/head/tools/regression/bin/sh/expansion/cmdsubst15.0 246582 2013-01-13 19:19:40Z jilles $
+
+! v=`false;
+
+`

@@ -1,0 +1,3 @@
+# $FreeBSD: soc2013/dpl/head/tools/regression/bin/sh/execution/bg1.0 221070 2011-04-25 20:54:12Z jilles $
+
+: `false` &

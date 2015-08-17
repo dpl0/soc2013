@@ -1,0 +1,5 @@
+#
+# $P4: //depot/projects/trustedbsd/openbsm/etc/audit_user#3 $
+# $FreeBSD: soc2013/dpl/head/contrib/openbsm/etc/audit_user 157180 2006-03-26 01:44:35Z rwatson $
+#
+root:lo:no

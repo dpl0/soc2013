@@ -1,0 +1,6 @@
+# $FreeBSD: soc2013/dpl/head/tools/regression/bin/sh/builtins/getopts2.0 182344 2008-08-27 20:26:34Z stefanf $
+set - -ax
+getopts ax option
+set -C
+getopts ax option
+echo $option

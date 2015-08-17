@@ -1,0 +1,23 @@
+# $FreeBSD: soc2013/dpl/head/lib/libkse/test/sem_d.exp 172534 2007-10-09 13:42:34Z obrien $
+Test begin
+Got semaphore
+Got semaphore
+Got semaphore
+Got semaphore
+Got semaphore
+Got semaphore
+Got semaphore
+Got semaphore
+Got semaphore
+Got semaphore
+Got semaphore
+Got semaphore
+Got semaphore
+Got semaphore
+Got semaphore
+Got semaphore
+Got semaphore
+Got semaphore
+Got semaphore
+Got semaphore
+Test end

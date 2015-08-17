@@ -1,0 +1,2 @@
+.\" $FreeBSD: soc2013/dpl/head/tools/build/options/WITHOUT_LDNS 248028 2013-02-15 13:44:18Z des $
+Setting this variable will prevent LDNS from being built.

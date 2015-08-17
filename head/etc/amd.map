@@ -1,0 +1,4 @@
+# $FreeBSD: soc2013/dpl/head/etc/amd.map 164058 2006-11-06 01:42:11Z obrien $
+#
+/defaults       type:=host;fs:=${autodir}/${rhost}/host;rhost:=${key}
+*               opts:=rw,grpid,resvport,vers=3,proto=tcp,nosuid,nodev

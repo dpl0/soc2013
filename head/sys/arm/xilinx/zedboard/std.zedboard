@@ -1,0 +1,8 @@
+#
+# std.zedboard
+#
+# $FreeBSD: soc2013/dpl/head/sys/arm/xilinx/zedboard/std.zedboard 251198 2013-04-27 22:38:29Z wkoszek $
+
+include "../xilinx/std.zynq7"
+files	"../xilinx/zedboard/files.zedboard"
+

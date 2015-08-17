@@ -1,0 +1,9 @@
+# $FreeBSD: soc2013/dpl/head/sys/modules/cc/cc_htcp/Makefile 216158 2010-12-02 06:40:21Z lstewart $
+
+.include <bsd.own.mk>
+
+.PATH: ${.CURDIR}/../../../netinet/cc
+KMOD=	cc_htcp
+SRCS=	cc_htcp.c
+
+.include <bsd.kmod.mk>

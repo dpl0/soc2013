@@ -1,0 +1,10 @@
+# $FreeBSD: soc2013/dpl/head/tools/regression/bin/sh/execution/subshell2.0 246584 2013-01-13 19:39:13Z jilles $
+
+f() {
+	x=2
+}
+(
+	x=1
+	f
+	[ "$x" = 2 ]
+)

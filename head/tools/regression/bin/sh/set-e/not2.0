@@ -1,0 +1,4 @@
+# $FreeBSD: soc2013/dpl/head/tools/regression/bin/sh/set-e/not2.0 193221 2009-05-31 17:23:27Z stefanf $
+set -e
+! false
+! eval false

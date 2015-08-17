@@ -1,0 +1,5 @@
+# $FreeBSD: soc2013/dpl/head/sys/arm/mv/armadaxp/std.mv78x60 240375 2012-08-15 05:15:49Z gonzo $
+
+include	"../mv/std-pj4b.mv"
+include "../mv/armadaxp/std.armadaxp"
+files	"../mv/armadaxp/files.armadaxp"

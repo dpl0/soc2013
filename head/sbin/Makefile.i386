@@ -1,0 +1,6 @@
+# $FreeBSD: soc2013/dpl/head/sbin/Makefile.i386 241792 2012-09-17 21:41:38Z jimharris $
+
+SUBDIR += bsdlabel
+SUBDIR += fdisk
+SUBDIR += nvmecontrol
+SUBDIR += sconfig

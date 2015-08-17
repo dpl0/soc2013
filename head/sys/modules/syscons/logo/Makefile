@@ -1,0 +1,8 @@
+# $FreeBSD: soc2013/dpl/head/sys/modules/syscons/logo/Makefile 89302 2002-01-11 15:49:02Z ru $
+
+.PATH:	${.CURDIR}/../../../dev/syscons/logo
+
+KMOD=	logo_saver
+SRCS=	logo_saver.c logo.c
+
+.include <bsd.kmod.mk>

@@ -1,0 +1,6 @@
+# $FreeBSD: soc2013/dpl/head/tools/regression/bin/sh/builtins/exit1.0 216914 2011-01-01 15:25:15Z jilles $
+
+# exit with an argument should overwrite the exit status in an EXIT trap.
+
+trap 'true; exit $?' 0
+false

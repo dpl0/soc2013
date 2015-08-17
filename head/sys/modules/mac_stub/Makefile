@@ -1,0 +1,9 @@
+# $FreeBSD: soc2013/dpl/head/sys/modules/mac_stub/Makefile 122555 2003-11-11 21:23:54Z rwatson $
+
+.PATH: ${.CURDIR}/../../security/mac_stub
+
+KMOD=	mac_stub
+SRCS=	vnode_if.h \
+	mac_stub.c
+
+.include <bsd.kmod.mk>

@@ -1,0 +1,9 @@
+# $FreeBSD: soc2013/dpl/head/gnu/usr.bin/groff/src/utils/hpftodit/Makefile 151547 2005-10-20 10:57:53Z ru $
+
+PROG_CXX=	hpftodit
+SRCS=		hpftodit.cpp hpuni.cpp
+DPADD=		${LIBGROFF} ${LIBM}
+LDADD=		${LIBGROFF} -lm
+CLEANFILES=	${MAN}
+
+.include <bsd.prog.mk>

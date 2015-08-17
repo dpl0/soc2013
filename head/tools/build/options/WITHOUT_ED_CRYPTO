@@ -1,0 +1,4 @@
+.\" $FreeBSD: soc2013/dpl/head/tools/build/options/WITHOUT_ED_CRYPTO 235996 2012-05-19 20:05:27Z marcel $
+Set to build
+.Xr ed 1
+without support for encryption/decryption.

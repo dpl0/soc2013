@@ -1,0 +1,4 @@
+.\" $FreeBSD: soc2013/dpl/head/tools/build/options/WITH_OFED 228362 2011-11-28 17:54:34Z dim $
+Set to build the
+.Dq "OpenFabrics Enterprise Distribution"
+Infiniband software stack.

@@ -1,0 +1,4 @@
+# $FreeBSD: soc2013/dpl/head/lib/libkse/test/guard_b.exp 172534 2007-10-09 13:42:34Z obrien $
+Test begin
+No overflow:
+Overflow:

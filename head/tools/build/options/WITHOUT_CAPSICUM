@@ -1,0 +1,2 @@
+.\" $FreeBSD: soc2013/dpl/head/tools/build/options/WITHOUT_CAPSICUM 229601 2012-01-02 21:57:58Z rwatson $
+Set to not build Capsicum support into system programs.

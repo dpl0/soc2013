@@ -1,0 +1,4 @@
+# $FreeBSD: soc2013/dpl/head/sys/boot/Makefile.ia64 240513 2012-08-18 23:23:14Z marcel $
+
+SUBDIR+=		efi
+SUBDIR+=		zfs

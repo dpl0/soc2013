@@ -1,0 +1,2 @@
+.\" $FreeBSD: soc2013/dpl/head/tools/build/options/WITHOUT_SOURCELESS 231254 2012-02-04 00:54:43Z rmh $
+Set to not build kernel modules that include sourceless code (either microcode or native code for host CPU).

@@ -1,0 +1,10 @@
+# $FreeBSD: soc2013/dpl/head/sys/modules/cm/Makefile 89141 2002-01-08 20:03:13Z fjoe $
+
+.PATH: ${.CURDIR}/../../dev/cm
+
+KMOD=	if_cm
+SRCS=	smc90cx6.c if_cm_isa.c
+
+SRCS+=	bus_if.h device_if.h isa_if.h
+
+.include <bsd.kmod.mk>

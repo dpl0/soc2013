@@ -1,0 +1,2 @@
+/* $FreeBSD: soc2013/dpl/head/lib/libc/libc.ldscript 252885 2013-06-12 21:12:05Z jlh $ */
+GROUP ( @@SHLIB@@ @@LIBDIR@@/libssp_nonshared.a )

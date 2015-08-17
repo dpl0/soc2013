@@ -1,0 +1,5 @@
+# $FreeBSD: soc2013/dpl/head/sbin/Makefile.amd64 241792 2012-09-17 21:41:38Z jimharris $
+
+SUBDIR += bsdlabel
+SUBDIR += fdisk
+SUBDIR += nvmecontrol

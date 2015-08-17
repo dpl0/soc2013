@@ -1,0 +1,2 @@
+.\" $FreeBSD: soc2013/dpl/head/tools/build/options/WITH_HESIOD 156975 2006-03-21 07:50:50Z ru $
+Set to build Hesiod support.

@@ -1,0 +1,13 @@
+/*
+ * $FreeBSD: soc2013/dpl/head/lib/msun/mips/Symbol.map 226498 2011-10-10 15:43:09Z das $
+ */
+FBSD_1.0 {
+};
+
+FBSD_1.3 {
+	fesetexceptflag;
+	feraiseexcept;
+	fegetenv;
+	feholdexcept;
+	feupdateenv;
+};

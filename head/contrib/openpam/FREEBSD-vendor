@@ -1,0 +1,6 @@
+# $FreeBSD: soc2013/dpl/head/contrib/openpam/FREEBSD-vendor 196207 2009-08-13 06:07:38Z des $
+Project:	OpenPAM
+ProjectURL:	http://www.openpam.org/
+Version:	Hydrangea (20071221)
+License:	BSD
+Maintainer:	des
